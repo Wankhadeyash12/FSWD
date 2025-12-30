@@ -1,0 +1,15 @@
+/* Custom styles for the simple webpage */
+:root{
+	--brand: #8894a7;
+}
+body { font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background-color: #f8f9fa; }
+.hero{ background-image: linear-gradient(135deg, rgba(13,110,253,0.90), rgba(128, 119, 142, 0.85)); background-size: cover; background-position: center; padding: 4.5rem 0; }
+.hero .lead{ opacity: 0.95; font-size: 1.15rem; }
+.card-title { color: var(--brand); font-weight: 600; }
+.hover-grow{ transition: transform .18s ease, box-shadow .18s ease; }
+.hover-grow:hover{ transform: translateY(-6px); box-shadow: 0 10px 25px rgba(13,110,253,0.08); }
+footer{ border-top: 1px solid rgba(255,255,255,0.06); }
+
+/* Utility tweaks */
+.navbar-brand { letter-spacing: .2px; }
+
