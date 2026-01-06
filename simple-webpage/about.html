@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Simple Bootstrap Webpage</title>
+    <title>About Us - MySite</title>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
@@ -15,14 +15,14 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
       <div class="container">
-        <a class="navbar-brand fw-bold text-primary" href="#">MySite</a>
+        <a class="navbar-brand fw-bold text-primary" href="index.html">MySite</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navMenu">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
           </ul>
         </div>
@@ -32,45 +32,31 @@
     <!-- Hero -->
     <header class="hero">
       <div class="container text-center text-white py-6">
-        <h1 class="display-4 fw-bold mb-3">Welcome to My Simple Page</h1>
-        <p class="lead mb-4">A clean responsive layout built with Bootstrap and a little custom styling.</p>
-        <a href="#features" class="btn btn-primary btn-lg">See features</a>
+        <h1 class="display-4 fw-bold mb-3">About Us</h1>
+        <p class="lead mb-4">Learn more about our mission and what we do.</p>
       </div>
     </header>
 
-    <!-- Features / Cards -->
-    <section id="features" class="py-5">
+    <!-- About Content -->
+    <section class="py-5">
       <div class="container">
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="card h-100 shadow-sm hover-grow">
-              <div class="card-body">
-                <h5 class="card-title">Responsive</h5>
-                <p class="card-text">Layout adjusts to any screen size using Bootstrap's grid.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card h-100 shadow-sm hover-grow">
-              <div class="card-body">
-                <h5 class="card-title">Easy to Customize</h5>
-                <p class="card-text">Change colors, spacing, and content quickly with utility classes.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card h-100 shadow-sm hover-grow">
-              <div class="card-body">
-                <h5 class="card-title">Lightweight</h5>
-                <p class="card-text">No build step required — open the file in a browser to view.</p>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="mb-4">Our Story</h2>
+            <p class="mb-4">We are a simple website dedicated to providing clean, responsive web experiences. Founded in 2025, we focus on creating user-friendly interfaces that work seamlessly across all devices.</p>
+            <p class="mb-4">Our team consists of passionate developers and designers who believe in the power of simplicity and accessibility in web design.</p>
+            <h3 class="mb-3">What We Offer</h3>
+            <ul class="list-unstyled">
+              <li class="mb-2"><strong>Responsive Design:</strong> Websites that look great on any screen size.</li>
+              <li class="mb-2"><strong>Fast Loading:</strong> Optimized for performance and speed.</li>
+              <li class="mb-2"><strong>Easy Maintenance:</strong> Simple code that's easy to update and modify.</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact / Footer -->
+    <!-- Footer -->
     <footer class="py-4 bg-dark text-white">
       <div class="container text-center">
         <p class="mb-1">Have questions? Email: <a class="link-light" href="mailto:hello@example.com">hello@example.com</a></p>

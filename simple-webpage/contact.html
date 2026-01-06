@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Us - MySite</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-primary" href="index.html">MySite</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="container text-center text-white py-6">
+        <h1 class="display-4 fw-bold mb-3">Contact Us</h1>
+        <p class="lead mb-4">Get in touch with us through various channels.</p>
+      </div>
+    </header>
+
+    <!-- Contact Options -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm hover-grow text-center">
+              <div class="card-body">
+                <h5 class="card-title">Email Contact</h5>
+                <p class="card-text">Send us an email for inquiries and support.</p>
+                <a href="email-contact.html" class="btn btn-primary">Contact via Email</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm hover-grow text-center">
+              <div class="card-body">
+                <h5 class="card-title">Phone Contact</h5>
+                <p class="card-text">Call us for immediate assistance.</p>
+                <a href="phone-contact.html" class="btn btn-primary">Contact via Phone</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm hover-grow text-center">
+              <div class="card-body">
+                <h5 class="card-title">General Inquiry</h5>
+                <p class="card-text">Fill out our contact form for general questions.</p>
+                <a href="#contact-form" class="btn btn-primary">Send Inquiry</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact-form" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
+            <h2 class="text-center mb-4">Send us a Message</h2>
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white">
+      <div class="container text-center">
+        <p class="mb-1">Have questions? Email: <a class="link-light" href="mailto:hello@example.com">hello@example.com</a></p>
+        <small class="text-muted">© 2026 MySite</small>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
